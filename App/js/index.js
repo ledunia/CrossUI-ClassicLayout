@@ -103,29 +103,6 @@ xui.Class('App', 'xui.Module',{
                 "main"
             );
             
-            host.xui_ui_tabs4.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input13")
-                .setLeft("9.904761904761905em")
-                .setTop("13.714285714285714em")
-                .setWidth("18em")
-                .setHeight("10em")
-                .setLabelSize("8em")
-                .setLabelCaption("Text Area")
-                .setMultiLines(true),
-                "a"
-            );
-            
-            append(
-                xui.create("xui.MQTT")
-                .setHost(host,"xui_mqtt1")
-                .setServer("99.80.80.150")
-                .setPort("1883")
-                .setPath("unipi817150")
-                .setUserName("admin")
-                .setPassword("Master")
-            );
-            
             return children;
             // ]]Code created by CrossUI RAD Studio
         }
